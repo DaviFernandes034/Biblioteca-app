@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-#define MAX_LIVRO 100
+
 
 typedef struct _livros Livros;
 
@@ -29,7 +29,7 @@ void add_livros(Livros* li, char* autor, int paginas, char* nome){
         return;
     }
 
-    fprintf(arquivo, "livro: %s,\n autor: %s,\n paginas %d\n\n", nome, autor, paginas);
+    fprintf(arquivo, "livro: %s,\nautor: %s,\npaginas: %d\n\n", nome, autor, paginas);
 
     fclose(arquivo);
 
