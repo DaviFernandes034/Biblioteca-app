@@ -14,3 +14,5 @@
       <li>./main</li>
 </li>
 
+<p>obs: não testei no windows, sistema operacional usado no desenvolvimento foi Linux</p>
+
